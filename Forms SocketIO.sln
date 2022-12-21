@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms SocketIO", "Forms SocketIO\Forms SocketIO.csproj", "{30163093-742E-406D-AA3B-AEFDFDB2590D}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ServerSide", "ServerSide\ServerSide.esproj", "{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{30163093-742E-406D-AA3B-AEFDFDB2590D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30163093-742E-406D-AA3B-AEFDFDB2590D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30163093-742E-406D-AA3B-AEFDFDB2590D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F514BCD-D6A0-4C66-A789-D51ACB5A49EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
