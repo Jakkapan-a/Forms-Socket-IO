@@ -32,7 +32,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.richTextBoxInput = new System.Windows.Forms.RichTextBox();
+            this.txtMessage = new System.Windows.Forms.RichTextBox();
             this.richTextBoxReceive = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -48,6 +48,7 @@
             this.btnSend.TabIndex = 0;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -71,7 +72,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.richTextBoxInput);
+            this.groupBox1.Controls.Add(this.txtMessage);
             this.groupBox1.Controls.Add(this.btnSend);
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
@@ -93,16 +94,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Receive Data";
             // 
-            // richTextBoxInput
+            // txtMessage
             // 
-            this.richTextBoxInput.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBoxInput.Location = new System.Drawing.Point(7, 20);
-            this.richTextBoxInput.Name = "richTextBoxInput";
-            this.richTextBoxInput.Size = new System.Drawing.Size(324, 110);
-            this.richTextBoxInput.TabIndex = 1;
-            this.richTextBoxInput.Text = "";
+            this.txtMessage.Location = new System.Drawing.Point(7, 20);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(324, 110);
+            this.txtMessage.TabIndex = 1;
+            this.txtMessage.Text = "";
             // 
             // richTextBoxReceive
             // 
@@ -137,7 +138,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RichTextBox richTextBoxInput;
+        private System.Windows.Forms.RichTextBox txtMessage;
         private System.Windows.Forms.RichTextBox richTextBoxReceive;
     }
 }
